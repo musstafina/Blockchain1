@@ -16,7 +16,7 @@ cd sortings
 ```bash
 cargo test
 ```
-## Tests
+### Tests
 ```rust
 let mut numbers = vec![4, 2, 7, 5, 1, 3, 6];
 quick_sort(&mut numbers, |a, b| a.cmp(b));
@@ -41,7 +41,7 @@ merge_sort(&mut numbers, |a, b| a.cmp(b));
 assert_eq!(numbers, vec![1, 2, 3, 4, 5, 6]);
 ```
 
-## Outputs
+### Outputs
 ![alt text](/image/test.png)
 
 
@@ -55,7 +55,12 @@ Run the code:
 ```bash
 cargo run
 ```
+### Example #1
 ![Alt Text](/image/example.png)
+
+### Example #2
+The second example also used all types of sorting, but here only the quick sort part is shown.
+![Alt Text](/image/example2.png)
 
 
 
